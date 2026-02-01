@@ -1,39 +1,39 @@
-title: Fundraising
+title: Enkephalin Extraction
 new-page: true
 view-if: fundraising_timer <= 0 and (not historical_mode)
 on-arrival: fundraising_timer = 6; month_actions += 1
 frequency: 300
 is-card: true
-card-image: img/poster_2.jpg
+card-image: out/html/img/enkephalin.png
 tags: party_affairs
 
-= Fundraising
+= Enkephalin Extraction
 
-For better or for worse, the party cannot exist without money.
+For better or for worse, the party cannot exist without Enkephalin.
 
-- @maintain: Maintain our current dues.
-- @reduce: Reduce dues.
-- @increase: Increase dues.
+- @maintain: Maintain our current extraction.
+- @reduce: Reduce extraction.
+- @increase: Increase extraction.
 
 @maintain
 subtitle: [+ dues +] resources gained.
 on-arrival: resources += dues;
 
-We maintain our current dues.
+We maintain our current extraction.
 
 @reduce
 subtitle: [+ dues - 1 +] resources gained.
 choose-if: dues > 1
 on-arrival: dues -= 1; resources += dues; left_dissent -= 8; center_dissent -= 8; reformist_dissent -= 8; labor_dissent -= 8
 
-Our current members appreciate this, but no one decides to join a party because of the low dues.
+Our current members lowk appreciate ts, but no one decides to join a clique because of the low extraction.
 
 @increase
-subtitle: [+ dues + 1 +] resources gained. [? if unemployed >= 15 : Given the present economic situation, this may be painful. ?][? if dues >= 4 : Dues are already rather high; increasing them might reduce our membership. ?]
+subtitle: [+ dues + 1 +] resources gained. [? if unemployed >= 15 : Given the present situation, this may be painful. ?][? if dues >= 4 : Extractions are already rather high; increasing them might reduce our sanity. ?]
 on-arrival: dues += 1; resources += dues; workers_spd -= 3; unemployed_spd -= 3; workers_spd -= 10 if unemployed >= 15; unemployed_spd -= 10 if unemployed >= 15; workers_spd -= 3*dues if dues >= 5; unemployed_spd -= 3*dues if dues >= 5
 view-if: dues <= 4
 
-Our members grumble at this, and some of the less committed members leave. But now, we have access to additional resources. 
+Suck your friend's d#ck until you choke on it while you skinned yourself alive. Then sprinkle some f#cking salt on your skinless body while getting sprayed with boiling water. But now, we have access to additional resources. 
 
 [? if unemployed >= 15 : Because of the presently high unemployment, our members are feeling the extra burden hard. ?]
 
