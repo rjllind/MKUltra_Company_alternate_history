@@ -3,9 +3,9 @@ new-page: true
 is-special: true
 go-to: menu
 
-= The Library
+= The Library of Tustha Antanu
 
-Herein contains relevant information about the government and politics of the German republic.
+Herein contains relevant information about MKUltra and 7Determination.
 
 @menu
 
@@ -13,7 +13,7 @@ Herein contains relevant information about the government and politics of the Ge
 - @weimar_timeline: Timeline of the Weimar Republic before 1928
 - @curr_gov: Current government details
 - @demographics: Demographics
-- @parties: Parties
+- @parties: Cliques
 - @public_opinion: Public opinion (and projected election results)
 - @paramilitaries: Paramilitary groups
 - @factions: Internal factions
@@ -204,32 +204,36 @@ Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD
 @parties
 go-to: menu
 
-**SPD** - *Sozialdemokratische Partei Deutschlands* (Social Democratic Party of Germany) - this is us. We are a socialist and democratic party of the working class. We are the heirs of the legacy of Marx and Engels, Lassalle and Bebel. We are the foremost defenders of the Republic. The modern SPD was formed from a merger of the "Majority" SPD, which supported the Great War, and the "Independent" SPD or USPD, which opposed the war.
+**MKUltra** - this is us. We are Ohio. We are the heirs of the legacy of Kim Ji-hoon and Project Moon, Franz Kafka and Gregor Samsa. We are the bulwark against cornballs. The modern MKUltra is wildly different from the old MKUltra after undergoing *The Great MKUltra Metamorphosis*
 
 **Z** - *Zentrumspartei* (Center Party) - a centrist to center-right Catholic party that supports the Republic, and has historically supported many of our labor, welfare, and anti-militarist priorities. They have often been in coalitions with us. They are often associated with the **BVP** (Bavarian People's Party), which represents Catholics in Bavaria. [? if year >= 1930 or chancellor = "Brüning" : They have appeared to take a more conservative turn recently, with the rise of Brüning and the party leader, Ludwig Kaas. ?]
 
 Current relations: [+ z_relation : relationships +]
 
-# TODO: replace this with the german state party after 1930
-**DDP** - *Deutsche Demokratische Partei* (German Democratic Party) - a center-left liberal party, popular among the intelligensia and educated middle class. They have often been in coalitions with us. [? if year >= 1930 : They have recently reformed themselves as the German State Party (DStP). ?]
+**Nafish faktion** - *Maybe* our equivalent in the opposite sex. To quote: 
+"raya galaw [ gemai, dukung 911, sigma amayt, gajelas mau muv on ga, mau suka anak sekolah lain]
+
+hands off khalsylikol [ + 1000000000 aura, sigma bamget, galaw mulu, delulu, twin ak]
+
+isabellelelelelele [ suka bapak' gajelas, mimpi teros maw ke russia, pokoknya suka old people]" The moon truly IS beautiful.
 
 Current relations: [+ ddp_relation : relationships +]
 
-**DVP** - *Deutsche Volkspartei* (German People's Party) - a conservative-liberal party, supported by the middle classes and bourgeoisie. We have occasionally been in coalitions.
+**Naya Masyitoh and bunch of other randoms** -random women who likes to yap o algo. Interacting with them are downright impossible. They often interact with cornball groups
 
 Current relations: [+ dvp_relation : relationships +]
 
-**DNVP** - *Deutschnationale Volkspartei* (German National People's Party) - a right-wing nationalist-conservative party, with authoritarian, monarchist, and racist elements. It is supported by the former aristocracy, rural landowners, and conservative Lutherans.
+**Cornball womna clique** - a corny squad of womna that are influential and wield massive power in class. They are closely intertwined with the other cornball clique, as their interests and goals are similar to the latter group.
 
 Current relations: [+ dnvp_relation : relationships +]
 
-**KPD** - *Kommunistische Partei Deutschlands* (German Communist Party) - a radical left-wing offshoot of the SPD that emerged in the aftermath of the German Revolution of 1918, they follow the path of Moscow, opposing parliamentary democracy in favor of a Soviet-style revolution.
+**The Disorderly** - They are "radical" compared to the rest of the class. Because this is Reedop, they are sort of smart in some niche but mid in others. Their core members include TUNGZ⚡⚡, Gudstory, Juno, and Bondan. They are quite influential in class.
 
 Current relations: [+ kpd_relation : relationships +]
 
-[? if sapd_formed: SAPD - Sozialistische Arbeiterpartei Deutschlands (Socialist Worker's Party of Germany) - a party recently formed in a split from the SPD, the SAPD is essentially an agglomeration of various left-wing splinter groups between the SPD and KPD. ?]
 
-**NSDAP** - *Nationalsozialistische Deutsche Arbeiterpartei* - (National Socialist German Worker's Party, or Nazis) - a far-right nationalist and antisemitic party. Led by Adolf Hitler, they attempted a coup in 1923, and were banned for it, but have since been legalized.
+**Israeli-backed men cornball clique** -
+They are the "populars", the far corny clique. They are the opposite of everything we stand for, although because of horseshoe theory they might not be so different from us. GAMA have been secretly infiltrating them and FAHRI is assimilating with them, specifically with Adam
 
 Current relations: [+ nsdap_relation : relationships +]
 
@@ -288,33 +292,33 @@ go-to: neorevisionists if neorevisionism > 0; menu if neorevisionism <= 0
 
 Overall dissent: [+ dissent_percent : dissent +]
 
-**Left**
+**FAHRI**
 
-Many leftists are former members of the USPD (the left-wing, anti-war Independent Social Democratic Party), or are young radicals. Many are interested in closer cooperation with the KPD, and some support extraparliamentary action.
+THE Zani gooner. He is known for his *"gooner"* tendencies, this could potentially be leveraged to increase publicity. He represents the far west of the monsoon wind, YT Shorts and anime defines his personality. His connections with Gipar allows us to sway  Attempt to balance his rationality and his "desires"
 
 Strength: [+ left_strength : strength +]
 
 Dissent: [+ left_dissent : dissent +]
 
-**Centrists**
+**MALIK**
 
-Centrists in the SPD are followers of the doctrine of orthodox Marxism as expounded by Karl Kautsky and later Rudolf Hilferding. They seek a middle course between reform and revolution, while defending the democratic state.
+Centre west leaning. The second most popular member of MKUltra. He tends to be inactive digitally and thus is not as influential as the others. He and Fahri are on the "cornier" side of MKUltra 
 
 Strength: [+ center_strength : strength +]
 
 Dissent: [+ center_dissent : dissent +]
 
-**Labor**
+**GAMA**
 
-Many SPD members are also part of the ADGB, the federation of free trade unions. Their goal is economic reform and benefits for organized workers.
+The most influential and popular member of MKUltra.  One of the founding fathers of MKUltra and Yigma Diolp. This "influencing the class plan" is formulated by him. He represents the far east of the monsoon wind
 
 Strength: [+ labor_strength : strength +]
 
 Dissent: [+ labor_dissent : dissent +]
 
-**Reformists**
+**ADLAN**
 
-Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy against the far right and left. [? if spd_prussia : They are dominant in the state government of Prussia. ?]
+It's me. Due to his policy of isolationism and external factors, He is the most unpopular member of MKUltra. Despite this, he is very influential in MKUltra and is also one of the founding fathers of MKUltra[? if spd_prussia : They are dominant in the state government of Prussia. ?]
 
 Strength: [+ reformist_strength : strength +]
 
