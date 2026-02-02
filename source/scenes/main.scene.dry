@@ -46,14 +46,14 @@ max-cards: 4
 
 
 @party
-title: Party Affairs
+title: MKUltra Affairs
 card-image: img/Vorwaerts_nr_1.png
 is-deck: true
 
 - #party_affairs
 
 @govt
-title: Government Affairs
+title: Maverick Affairs
 view-if: time >= 6
 card-image: img/reichstag_2.jpg
 is-deck: true
