@@ -47,7 +47,7 @@ max-cards: 4
 
 @party
 title: MKUltra Affairs
-card-image: img/MKUltra.jpg
+card-image: MKUltra.png
 is-deck: true
 
 - #party_affairs
@@ -55,7 +55,7 @@ is-deck: true
 @govt
 title: Maverick Affairs
 view-if: time >= 6
-card-image: img/Mavverikh.jpg
+card-image: img/IMG_20260202_113639_194.png
 is-deck: true
 
 - #govt_affairs
